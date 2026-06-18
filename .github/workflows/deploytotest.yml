@@ -19,17 +19,14 @@ jobs:
       with:
         fetch-depth: 0
 
-    # ✅ This applies changes from GitHub to TEST
-    # ✅ App will be in sys_app table as source=local (editable)
     - name: Apply Changes to TEST
-      uses: ServiceNow/sncicd-apply-changes@2.0.1
+      uses: ServiceNow/sncicd-apply-changes@2.0.0  # ✅ Changed from @2.0.1 to @2.0.0
       env:
         nowUsername: ${{ secrets.SN_TEST_USERNAME }}
         nowPassword: ${{ secrets.SN_TEST_PASSWORD }}
         nowSourceInstance: ${{ secrets.NOW_TEST_INSTANCE }}
         appSysID: ${{ secrets.APP_SYS_ID }}
 
-    # Optional: Create a Git tag for tracking
     - name: Create Git Tag
       if: ${{ success() }}
       run: |
