@@ -20,11 +20,11 @@ jobs:
         fetch-depth: 0
 
     - name: Apply Changes to TEST
-      uses: ServiceNow/sncicd-apply-changes@1.2.1  # ✅ Changed to 1.2.1
+      uses: ServiceNow/sncicd-apply-changes@1.2.1
       env:
-        nowUsername: ${{ secrets.SN_TEST_USERNAME }}
-        nowPassword: ${{ secrets.SN_TEST_PASSWORD }}
-        nowSourceInstance: ${{ secrets.NOW_TEST_INSTANCE }}
+        snowUsername: ${{ secrets.SN_TEST_USERNAME }}      # ✅ Changed from nowUsername to snowUsername
+        snowPassword: ${{ secrets.SN_TEST_PASSWORD }}      # ✅ Changed from nowPassword to snowPassword
+        snowSourceInstance: ${{ secrets.NOW_TEST_INSTANCE }}  # ✅ Changed from nowSourceInstance to snowSourceInstance
         appSysID: ${{ secrets.APP_SYS_ID }}
 
     - name: Create Git Tag
