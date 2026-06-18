@@ -17,7 +17,7 @@ jobs:
           fetch-depth: 0
 
       - name: ServiceNow CI/CD Apply Changes
-        uses: ServiceNow/sncicd-apply-changes@2.0.1
+        uses: ServiceNow/sncicd-apply-changes@2.0.0  # ✅ Changed from @2.0.1 to @2.0.0
         env:
           nowUsername: ${{ secrets.SN_DEV_USERNAME }}
           nowPassword: ${{ secrets.SN_DEV_PASSWORD }}
