@@ -20,7 +20,7 @@ jobs:
         fetch-depth: 0
 
     - name: Apply Changes to TEST
-      uses: ServiceNow/sncicd-publish-app@2.0.1
+      uses: ServiceNow/sncicd-apply-changes@1.2.1  # ✅ Changed to 1.2.1
       env:
         nowUsername: ${{ secrets.SN_TEST_USERNAME }}
         nowPassword: ${{ secrets.SN_TEST_PASSWORD }}
