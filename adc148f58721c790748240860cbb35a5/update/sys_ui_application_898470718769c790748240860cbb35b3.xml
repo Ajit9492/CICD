@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application">
+    <sys_ui_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <hint/>
+        <name>git-cicd-main</name>
+        <order/>
+        <roles>x_bfbaf_github_c_0.git_cicd_main_user</roles>
+        <sys_class_name>sys_ui_application</sys_class_name>
+        <sys_created_by>ajitnaik1</sys_created_by>
+        <sys_created_on>2026-06-18 17:05:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>898470718769c790748240860cbb35b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>git-cicd-main</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="GitHub-CICD" source="x_bfbaf_github_c_0">adc148f58721c790748240860cbb35a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GitHub-CICD">adc148f58721c790748240860cbb35a5</sys_scope>
+        <sys_update_name>sys_ui_application_898470718769c790748240860cbb35b3</sys_update_name>
+        <sys_updated_by>ajitnaik1</sys_updated_by>
+        <sys_updated_on>2026-06-18 17:05:17</sys_updated_on>
+    </sys_ui_application>
+</record_update>
