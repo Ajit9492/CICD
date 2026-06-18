@@ -1,1 +1,40 @@
+name: Deploy to TEST instance
 
+on:
+  pull_request:
+    types: [closed]
+
+permissions:
+  contents: write
+
+jobs:
+  deploy_to_test:
+    name: Apply Changes to TEST
+    runs-on: ubuntu-latest
+    if: github.event.pull_request.merged == true
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
+
+    # ✅ This applies changes from GitHub to TEST
+    # ✅ App will be in sys_app table as source=local (editable)
+    - name: Apply Changes to TEST
+      uses: ServiceNow/sncicd-apply-changes@2.0.1
+      env:
+        nowUsername: ${{ secrets.SN_TEST_USERNAME }}
+        nowPassword: ${{ secrets.SN_TEST_PASSWORD }}
+        nowSourceInstance: ${{ secrets.NOW_TEST_INSTANCE }}
+        appSysID: ${{ secrets.APP_SYS_ID }}
+
+    # Optional: Create a Git tag for tracking
+    - name: Create Git Tag
+      if: ${{ success() }}
+      run: |
+        VERSION="test-deploy-$(date +'%Y%m%d-%H%M%S')"
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+        git tag "$VERSION"
+        git push origin "$VERSION"
