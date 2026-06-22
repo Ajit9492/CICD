@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="git-cicd-main">898470718769c790748240860cbb35b3</application>
+        <filter/>
+        <name>git-cicd-mains</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_bfbaf_github_c_0.git_cicd_main_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>ajitnaik1</sys_created_by>
+        <sys_created_on>2026-06-18 17:05:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>898470718769c790748240860cbb35c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>git-cicd-mains</sys_name>
+        <sys_package display_value="GitHub-CICD" source="x_bfbaf_github_c_0">adc148f58721c790748240860cbb35a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GitHub-CICD">adc148f58721c790748240860cbb35a5</sys_scope>
+        <sys_update_name>sys_ui_module_898470718769c790748240860cbb35c7</sys_update_name>
+        <sys_updated_by>ajitnaik1</sys_updated_by>
+        <sys_updated_on>2026-06-18 17:05:17</sys_updated_on>
+        <table>x_bfbaf_github_c_0_git_cicd_main</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GitHub-CICD">adc148f58721c790748240860cbb35a5</application>
+        <file_path/>
+        <instance_id>475ae816930a1a18c4e8ddd548373c9f</instance_id>
+        <instance_name>bajajdev</instance_name>
+        <name>sys_ui_module_898470718769c790748240860cbb35c7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="git-cicd-main">898470718769c790748240860cbb35b3</application><filter/><name>git-cicd-mains</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_bfbaf_github_c_0.git_cicd_main_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>ajitnaik1</sys_created_by><sys_created_on>2026-06-18 17:05:17</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>898470718769c790748240860cbb35c7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>git-cicd-mains</sys_name><sys_package display_value="GitHub-CICD" source="x_bfbaf_github_c_0">adc148f58721c790748240860cbb35a5</sys_package><sys_policy/><sys_scope display_value="GitHub-CICD">adc148f58721c790748240860cbb35a5</sys_scope><sys_update_name>sys_ui_module_898470718769c790748240860cbb35c7</sys_update_name><sys_updated_by>ajitnaik1</sys_updated_by><sys_updated_on>2026-06-18 17:05:17</sys_updated_on><table>x_bfbaf_github_c_0_git_cicd_main</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>923837258</payload_hash>
+        <record_name>git-cicd-mains</record_name>
+        <reverted_from/>
+        <source>27da483d8761c790748240860cbb3578</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ajitnaik1</sys_created_by>
+        <sys_created_on>2026-06-18 17:05:18</sys_created_on>
+        <sys_id>8d8470718769c790748240860cbb35ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19edbb1b8ed0000001</sys_recorded_at>
+        <sys_updated_by>ajitnaik1</sys_updated_by>
+        <sys_updated_on>2026-06-18 17:05:18</sys_updated_on>
+        <type>Module</type>
+        <update_guid>c9847071fe69c79048048b57f62f13cd</update_guid>
+        <update_guid_history>c9847071fe69c79048048b57f62f13cd:923837258</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ajitnaik1</sys_created_by>
+        <sys_created_on>2026-06-22 07:23:16</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>9358389109454e038e09bd3810e80539</sys_id>
+        <sys_metadata>898470718769c790748240860cbb35c7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>git-cicd-mains</sys_name>
+        <sys_package display_value="GitHub-CICD" source="x_bfbaf_github_c_0">adc148f58721c790748240860cbb35a5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="GitHub-CICD">adc148f58721c790748240860cbb35a5</sys_scope>
+        <sys_scope_delete display_value="">165676201629461a834f046a8eaa92d9</sys_scope_delete>
+        <sys_update_name>sys_ui_module_898470718769c790748240860cbb35c7</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_898470718769c790748240860cbb35c7">8d8470718769c790748240860cbb35ce</sys_update_version>
+        <sys_updated_by>ajitnaik1</sys_updated_by>
+        <sys_updated_on>2026-06-22 07:23:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

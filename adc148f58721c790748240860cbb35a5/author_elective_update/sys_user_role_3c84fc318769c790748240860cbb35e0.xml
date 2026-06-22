@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="DELETE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <federated_id/>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_bfbaf_github_c_0.git_cicd_main_user</name>
+        <scoped_admin>false</scoped_admin>
+        <suffix>git_cicd_main_user</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>ajitnaik1</sys_created_by>
+        <sys_created_on>2026-06-18 17:05:17</sys_created_on>
+        <sys_id>3c84fc318769c790748240860cbb35e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_bfbaf_github_c_0.git_cicd_main_user</sys_name>
+        <sys_package display_value="GitHub-CICD" source="x_bfbaf_github_c_0">adc148f58721c790748240860cbb35a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GitHub-CICD">adc148f58721c790748240860cbb35a5</sys_scope>
+        <sys_update_name>sys_user_role_3c84fc318769c790748240860cbb35e0</sys_update_name>
+        <sys_updated_by>ajitnaik1</sys_updated_by>
+        <sys_updated_on>2026-06-18 17:05:17</sys_updated_on>
+    </sys_user_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GitHub-CICD">adc148f58721c790748240860cbb35a5</application>
+        <file_path/>
+        <instance_id>475ae816930a1a18c4e8ddd548373c9f</instance_id>
+        <instance_name>bajajdev</instance_name>
+        <name>sys_user_role_3c84fc318769c790748240860cbb35e0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description/><elevated_privilege>false</elevated_privilege><federated_id/><grantable>true</grantable><includes_roles/><name>x_bfbaf_github_c_0.git_cicd_main_user</name><scoped_admin>false</scoped_admin><suffix>git_cicd_main_user</suffix><sys_class_name>sys_user_role</sys_class_name><sys_created_by>ajitnaik1</sys_created_by><sys_created_on>2026-06-18 17:05:17</sys_created_on><sys_id>3c84fc318769c790748240860cbb35e0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_bfbaf_github_c_0.git_cicd_main_user</sys_name><sys_package display_value="GitHub-CICD" source="x_bfbaf_github_c_0">adc148f58721c790748240860cbb35a5</sys_package><sys_policy/><sys_scope display_value="GitHub-CICD">adc148f58721c790748240860cbb35a5</sys_scope><sys_update_name>sys_user_role_3c84fc318769c790748240860cbb35e0</sys_update_name><sys_updated_by>ajitnaik1</sys_updated_by><sys_updated_on>2026-06-18 17:05:17</sys_updated_on></sys_user_role></record_update>]]></payload>
+        <payload_hash>-1475759197</payload_hash>
+        <record_name>x_bfbaf_github_c_0.git_cicd_main_user</record_name>
+        <reverted_from/>
+        <source>27da483d8761c790748240860cbb3578</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ajitnaik1</sys_created_by>
+        <sys_created_on>2026-06-18 17:05:17</sys_created_on>
+        <sys_id>c18470718769c790748240860cbb3586</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19edbb1b65f0000001</sys_recorded_at>
+        <sys_updated_by>ajitnaik1</sys_updated_by>
+        <sys_updated_on>2026-06-18 17:05:17</sys_updated_on>
+        <type>Role</type>
+        <update_guid>41847071ab69c790bafb6db351a30c85</update_guid>
+        <update_guid_history>41847071ab69c790bafb6db351a30c85:-1475759197</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_bfbaf_github_c_0.git_cicd_main_user">d2d5df7e47e503107691df58036d4354</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ajitnaik1</sys_created_by>
+        <sys_created_on>2026-06-22 07:24:06</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role">sys_user_role</sys_db_object>
+        <sys_id>2ef0156db55a471f8f9807eb639265a1</sys_id>
+        <sys_metadata>3c84fc318769c790748240860cbb35e0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_bfbaf_github_c_0.git_cicd_main_user</sys_name>
+        <sys_package display_value="GitHub-CICD" source="x_bfbaf_github_c_0">adc148f58721c790748240860cbb35a5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="GitHub-CICD">adc148f58721c790748240860cbb35a5</sys_scope>
+        <sys_scope_delete display_value="">165676201629461a834f046a8eaa92d9</sys_scope_delete>
+        <sys_update_name>sys_user_role_3c84fc318769c790748240860cbb35e0</sys_update_name>
+        <sys_update_version display_value="sys_user_role_3c84fc318769c790748240860cbb35e0">c18470718769c790748240860cbb3586</sys_update_version>
+        <sys_updated_by>ajitnaik1</sys_updated_by>
+        <sys_updated_on>2026-06-22 07:24:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
