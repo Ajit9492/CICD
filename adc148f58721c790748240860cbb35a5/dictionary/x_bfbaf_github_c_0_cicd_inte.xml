@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="db443bf247ad03107691df58036d439f" label="CICD-Inte" max_length="40" name="x_bfbaf_github_c_0_cicd_inte" type="collection">
+        <element label="Attachment" max_length="40" name="attachment" type="file_attachment"/>
+        <element choice="1" label="Acess" max_length="40" name="acess" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Execute"/>
+                <element inactive_on_update="false" label="Write"/>
+                <element inactive_on_update="false" label="Read"/>
+            </choice>
+        </element>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element label="Email" max_length="40" name="email" type="string"/>
+    </element>
+</database>
