@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Record default">041110c7472543107691df58036d438e</macroponent>
+        <name>action_bar_1/now_default/daModel</name>
+        <preset/>
+        <required_translations>[]</required_translations>
+        <script><![CDATA[/**
+  * @param {params} params
+  * @param {api} params.api
+  * @param {TransformApiHelpers} params.helpers
+  */
+function evaluateProperty({api, helpers}) { }]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>ajitnaik1</sys_created_by>
+        <sys_created_on>2026-06-22 13:26:44</sys_created_on>
+        <sys_id>49682ccb476943107691df58036d4303</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>action_bar_1/now_default/daModel</sys_name>
+        <sys_package display_value="GitHub-CICD" source="x_bfbaf_github_c_0">adc148f58721c790748240860cbb35a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GitHub-CICD">adc148f58721c790748240860cbb35a5</sys_scope>
+        <sys_update_name>sys_ux_client_script_49682ccb476943107691df58036d4303</sys_update_name>
+        <sys_updated_by>ajitnaik1</sys_updated_by>
+        <sys_updated_on>2026-06-22 13:26:44</sys_updated_on>
+        <target>macroponent</target>
+        <type>transform</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GitHub-CICD">adc148f58721c790748240860cbb35a5</application>
+        <file_path/>
+        <instance_id>475ae816930a1a18c4e8ddd548373c9f</instance_id>
+        <instance_name>bajajdev</instance_name>
+        <name>sys_ux_client_script_49682ccb476943107691df58036d4303</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;controller_preset/&gt;&lt;includes/&gt;&lt;macroponent display_value="Record default"&gt;041110c7472543107691df58036d438e&lt;/macroponent&gt;&lt;name&gt;action_bar_1/now_default/daModel&lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+  * @param {params} params
+  * @param {api} params.api
+  * @param {TransformApiHelpers} params.helpers
+  */
+function evaluateProperty({api, helpers}) { }]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;ajitnaik1&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-06-22 13:26:44&lt;/sys_created_on&gt;&lt;sys_id&gt;49682ccb476943107691df58036d4303&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;action_bar_1/now_default/daModel&lt;/sys_name&gt;&lt;sys_package display_value="GitHub-CICD" source="x_bfbaf_github_c_0"&gt;adc148f58721c790748240860cbb35a5&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="GitHub-CICD"&gt;adc148f58721c790748240860cbb35a5&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_49682ccb476943107691df58036d4303&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;ajitnaik1&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-06-22 13:26:44&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;transform&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1068029087</payload_hash>
+        <record_name>action_bar_1/now_default/daModel</record_name>
+        <reverted_from/>
+        <source>27da483d8761c790748240860cbb3578</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ajitnaik1</sys_created_by>
+        <sys_created_on>2026-06-22 13:26:44</sys_created_on>
+        <sys_id>fed8284f476943107691df58036d439f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19eef8311780000001</sys_recorded_at>
+        <sys_updated_by>ajitnaik1</sys_updated_by>
+        <sys_updated_on>2026-06-22 13:26:44</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>7ed8284f24694310939763a828a40d9e</update_guid>
+        <update_guid_history>7ed8284f24694310939763a828a40d9e:1068029087</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ajitnaik1</sys_created_by>
+        <sys_created_on>2026-06-22 14:48:46</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>104e1ceeb958438082e5329ef2498400</sys_id>
+        <sys_metadata>49682ccb476943107691df58036d4303</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>action_bar_1/now_default/daModel</sys_name>
+        <sys_package display_value="GitHub-CICD" source="x_bfbaf_github_c_0">adc148f58721c790748240860cbb35a5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="GitHub-CICD">adc148f58721c790748240860cbb35a5</sys_scope>
+        <sys_scope_delete display_value="">165676201629461a834f046a8eaa92d9</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_49682ccb476943107691df58036d4303</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_49682ccb476943107691df58036d4303">fed8284f476943107691df58036d439f</sys_update_version>
+        <sys_updated_by>ajitnaik1</sys_updated_by>
+        <sys_updated_on>2026-06-22 14:48:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
