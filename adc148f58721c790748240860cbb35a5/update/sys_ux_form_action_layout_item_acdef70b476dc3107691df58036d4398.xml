@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_form_action_layout_item">
+    <sys_ux_form_action_layout_item action="INSERT_OR_UPDATE">
+        <action display_value="Cancel Record">60def70b476dc3107691df58036d4391</action>
+        <active>true</active>
+        <animate_icon>false</animate_icon>
+        <color>secondary</color>
+        <description/>
+        <icon/>
+        <item_type>action</item_type>
+        <label>Cancel Record</label>
+        <layout_group/>
+        <name>Cancel Record</name>
+        <order>100</order>
+        <overflow>false</overflow>
+        <sys_class_name>sys_ux_form_action_layout_item</sys_class_name>
+        <sys_created_by>ajitnaik1</sys_created_by>
+        <sys_created_on>2026-06-23 05:01:34</sys_created_on>
+        <sys_id>acdef70b476dc3107691df58036d4398</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cancel Record</sys_name>
+        <sys_package display_value="GitHub-CICD" source="x_bfbaf_github_c_0">adc148f58721c790748240860cbb35a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GitHub-CICD">adc148f58721c790748240860cbb35a5</sys_scope>
+        <sys_update_name>sys_ux_form_action_layout_item_acdef70b476dc3107691df58036d4398</sys_update_name>
+        <sys_updated_by>ajitnaik1</sys_updated_by>
+        <sys_updated_on>2026-06-23 05:01:34</sys_updated_on>
+        <table>x_bfbaf_github_c_0_cicd_inte</table>
+    </sys_ux_form_action_layout_item>
+</record_update>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_form_action">
+    <sys_ux_form_action action="INSERT_OR_UPDATE">
+        <action_type>ui_action</action_type>
+        <active>true</active>
+        <declarative_action/>
+        <description/>
+        <name>Submit Record</name>
+        <specificity>10</specificity>
+        <sys_class_name>sys_ux_form_action</sys_class_name>
+        <sys_created_by>ajitnaik1</sys_created_by>
+        <sys_created_on>2026-06-23 05:15:14</sys_created_on>
+        <sys_id>78f1801747adc3107691df58036d4364</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Submit Record</sys_name>
+        <sys_package display_value="GitHub-CICD" source="x_bfbaf_github_c_0">adc148f58721c790748240860cbb35a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GitHub-CICD">adc148f58721c790748240860cbb35a5</sys_scope>
+        <sys_update_name>sys_ux_form_action_78f1801747adc3107691df58036d4364</sys_update_name>
+        <sys_updated_by>ajitnaik1</sys_updated_by>
+        <sys_updated_on>2026-06-23 05:15:14</sys_updated_on>
+        <table>x_bfbaf_github_c_0_cicd_inte</table>
+        <ui_action/>
+    </sys_ux_form_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=78f1801747adc3107691df58036d4364"/>
+</record_update>
