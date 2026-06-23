@@ -20,19 +20,19 @@
             <element>acess</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Execute</label>
+            <label>Read</label>
             <language>en</language>
             <name>x_bfbaf_github_c_0_cicd_inte</name>
-            <sequence/>
+            <sequence>1</sequence>
             <synonyms/>
             <sys_created_by>ajitnaik1</sys_created_by>
-            <sys_created_on>2026-06-22 09:42:00</sys_created_on>
+            <sys_created_on>2026-06-22 09:41:46</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>ajitnaik1</sys_updated_by>
-            <sys_updated_on>2026-06-22 09:42:00</sys_updated_on>
-            <value/>
+            <sys_updated_on>2026-06-23 11:01:36</sys_updated_on>
+            <value>read</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -42,35 +42,35 @@
             <label>Write</label>
             <language>en</language>
             <name>x_bfbaf_github_c_0_cicd_inte</name>
-            <sequence/>
+            <sequence>2</sequence>
             <synonyms/>
             <sys_created_by>ajitnaik1</sys_created_by>
             <sys_created_on>2026-06-22 09:41:53</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>ajitnaik1</sys_updated_by>
-            <sys_updated_on>2026-06-22 09:41:53</sys_updated_on>
-            <value/>
+            <sys_updated_on>2026-06-23 11:01:40</sys_updated_on>
+            <value>write</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>acess</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Read</label>
+            <label>Execute</label>
             <language>en</language>
             <name>x_bfbaf_github_c_0_cicd_inte</name>
-            <sequence/>
+            <sequence>3</sequence>
             <synonyms/>
             <sys_created_by>ajitnaik1</sys_created_by>
-            <sys_created_on>2026-06-22 09:41:46</sys_created_on>
+            <sys_created_on>2026-06-22 09:42:00</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>ajitnaik1</sys_updated_by>
-            <sys_updated_on>2026-06-22 09:41:46</sys_updated_on>
-            <value/>
+            <sys_updated_on>2026-06-23 11:01:44</sys_updated_on>
+            <value>execute</value>
         </sys_choice>
     </sys_choice>
 </record_update>
