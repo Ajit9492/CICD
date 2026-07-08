@@ -1,0 +1,42 @@
+name: ServiceNow Manual Deploy
+
+on:
+  workflow_dispatch:
+    inputs:
+      target_env:
+        description: "Where to deploy?"
+        required: true
+        type: choice
+        options:
+          - uat
+          - prod
+
+jobs:
+  deploy:
+    name: Deploy to ${{ inputs.target_env }}
+    runs-on: ubuntu-latest
+    environment: ${{ inputs.target_env }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Apply changes to UAT
+        if: ${{ inputs.target_env == 'uat' }}
+        uses: ServiceNow/sncicd-apply-changes@1.2.1
+        env:
+          nowUsername: ${{ secrets.SN_UAT_USERNAME }}
+          nowPassword: ${{ secrets.SN_UAT_PASSWORD }}
+          nowSourceInstance: ${{ secrets.NOW_UAT_INSTANCE }}
+          appSysID: ${{ secrets.APP_SYS_ID }}
+
+      - name: Apply changes to PROD
+        if: ${{ inputs.target_env == 'prod' }}
+        uses: ServiceNow/sncicd-apply-changes@1.2.1
+        env:
+          nowUsername: ${{ secrets.SN_PROD_USERNAME }}
+          nowPassword: ${{ secrets.SN_PROD_PASSWORD }}
+          nowSourceInstance: ${{ secrets.NOW_PROD_INSTANCE }}
+          appSysID: ${{ secrets.APP_SYS_ID }}
